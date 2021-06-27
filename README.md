@@ -2,10 +2,14 @@
 
 # fullNetworkSnifferApp
 
+
+
 This python3 #APP will be run on the local network to monitor and capture packets from various protocols depending on the user input provided, and it will do so automatically.
 To make the ##HTTP packet filter easy to understand, the script was written to filtered the packet and capture the username and the password entered only.
 
 In addition to storing the captured packets on a ##local file, a copy of each captured packet will be sent to the user's ##email address.
+
+There is two codes script, one contains all of the code comments, which allows you to gain a better understanding of the code flow, and another contains only the code all you need is to update your email and the email that can allow the app to send the result. You will also need to make changes to the email security of the email address from which you wish to send the results in order for the less secure apps to be able to access the app in the email settings.
 
 ## This script will capture packets from four protocols and it can be updated to capture more.
 
