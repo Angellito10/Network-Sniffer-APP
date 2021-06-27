@@ -231,6 +231,7 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 # SMTP connection is in TLS (Transport Layer Security) mode. All SMTP commands that follow will be encrypted.
 server.starttls()
 
+
 # Logging in to Gmail and sending the e-mail
 server.login('senderEmail', 'senderEmailPass')
 server.sendmail(fromaddr, toaddr, msg.as_string())
