@@ -54,7 +54,7 @@ sudo python fileName.py
 
 ```sudo python networkSniffer.py ```
 
-![GitHub Logo](https://github.com/Angellito10/manInTheMiddle-MITM-Attack/blob/master/img/scanner.png)
+![GitHub Logo](https://github.com/Angellito10/Network-Sniffer-APP/blob/fad12c56b066d84b2f43b9a613586309c0d725d5/img/Screenshot%202021-06-27%20at%2010.25.27%20AM.png)
 
 Now the attacker has a list of IPs with MAC addresses for each device connected to the network. 
 
